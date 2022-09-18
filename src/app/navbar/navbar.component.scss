@@ -1,0 +1,128 @@
+*
+{
+    outline: none;
+}
+
+.main-nav
+{
+    margin-left: 23%;
+}
+
+.mid-bar
+{
+    position: absolute;
+    right: 0;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    height: 40px !important;
+    border-radius: 10px;
+    z-index: 999;
+    background-color: rgb(51, 51, 51);
+    color: rgb(235, 235, 235);
+    margin: 0px 0 0 0px;
+}
+
+
+.hero
+{
+    display: none;
+}
+
+@media only screen and (max-width: 1081px)
+{
+    // .hide-css{display: none;}
+    #align{display: auto !important;}
+}
+
+.layer--
+{
+    background-color: rgba(0, 0, 0,.5);
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+
+.side-bar h4
+{
+    background-color: #343a40 !important;
+    margin-bottom: 1px;
+    padding: 20px;
+    cursor: pointer;
+}
+
+.radiusing1
+{
+    border-top-left-radius: 30px;
+    border-bottom-left-radius: 30px;
+}
+
+.radiusing2
+{
+    border-top-right-radius: 30px;
+    border-bottom-right-radius: 30px;
+}
+
+option, select
+{
+    font-weight: 600;
+    outline: none;
+}
+
+.search, select, .search-btn
+{
+    height: 30px;
+    border: none !important;
+    margin: 0;
+}
+
+.pointer
+{
+    cursor: pointer;
+}
+
+.fa-shopping-cart
+{
+    font-size: 19px;
+}
+
+.rounded
+{
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 17px;
+    height: 17px;
+    font-size: 12px;
+    border-radius: 50% !important;
+}
+
+.position-relative p.text-white
+{
+    font-size: 13px;
+}
+
+ul li
+{
+    display: inline-block;
+    margin: 10px 20px;
+    cursor: pointer;
+    outline: none;
+}
+
+.under-line
+{
+    width: 100%;
+    height: 1px;
+    background-color: rgb(206, 6, 6);
+}
+
+.under-line
+{
+    width: 100%;
+    height: 1px;
+    background-color: rgb(206, 6, 6);
+    transition: all .3s ease-in-out;
+}
